@@ -9,7 +9,7 @@ A brief description of your web development project.
 
 In this section, list and describe the features or functionality that we are working on. 
 
-- [ ] Feature 1 (poorya zare janakbari): customer service. 
+- [ ] Feature 1 (poorya zare janakbari): online Test Drive Reservation. 
 - [ ] Feature 2 (Full Name): Title of the feature.
 - [ ] Feature 3 (Full Name): Title of the feature.
 
@@ -17,7 +17,7 @@ In this section, list and describe the features or functionality that we are wor
 
 ### Feature 1
 
-Include more detailed information about Feature 1 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Customers can fill out a registration form and select their preferred vehicle from the available cars for a test drive. After confirming the date and time for the test, they will receive an email confirmation.. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
 
 ### Feature 2
 
