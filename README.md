@@ -1,5 +1,3 @@
-# Exercise 5: Readme.md
-
 ***Welcome to the task README!***
 
 # CAR SHOP - Team 20
