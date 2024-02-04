@@ -26,7 +26,7 @@ A brief description of your web development project.
 In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
 
 - [ ] Feature 1 (Amin Hamidi Younessi): Advance search. 
-- [ ] Feature 2 (Full Name): Title of the feature.
+- [ ] Feature 2 (POORYA ZARE JANAKBARI): Online Test Drive Reservation.
 - [ ] Feature 3 (Full Name): Title of the feature.
 
 > Add features as required. 
@@ -37,7 +37,7 @@ People will come to our website and search about brands, models, and the car typ
 
 ### Feature 2
 
-Include more detailed information about Feature 2 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Customers can fill out a registration form and select their preferred vehicle from the available cars for a test drive. After confirming the date and time for the test, they will receive an email confirmation. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
 
 ### Feature 3
 
