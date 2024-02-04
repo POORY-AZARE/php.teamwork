@@ -27,7 +27,7 @@ In this section, list and describe the features or functionality that you are wo
 
 - [ ] Feature 1 (Amin Hamidi Younessi): Advance search. 
 - [ ] Feature 2 (POORYA ZARE JANAKBARI): Online Test Drive Reservation.
-- [ ] Feature 3 (Full Name): Title of the feature.
+- [ ] Feature 3 (charity kabutbei): adding of new cars
 
 > Add features as required. 
 
@@ -41,7 +41,7 @@ Customers can fill out a registration form and select their preferred vehicle fr
 
 ### Feature 3
 
-Include more detailed information about Feature 3 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+I will create a form for adding new cars with their brands and the price and also removing the already taken one. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
 
 ---
 
