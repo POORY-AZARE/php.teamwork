@@ -25,7 +25,7 @@ A brief description of your web development project.
 
 In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
 
-- [ ] Feature 1 (Full Name): Title of the feature. 
+- [ ] Feature 1 (Amin Hamidi Younessi): Search Brands, Brands model, Price, and the kind of car model. 
 - [ ] Feature 2 (Full Name): Title of the feature.
 - [ ] Feature 3 (Full Name): Title of the feature.
 
@@ -33,7 +33,7 @@ In this section, list and describe the features or functionality that you are wo
 
 ### Feature 1
 
-Include more detailed information about Feature 1 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+People will come to our website and search about brands, models, and the car types include fuel, hybrid or electricity cars. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
 
 ### Feature 2
 
