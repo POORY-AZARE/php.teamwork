@@ -13,11 +13,12 @@
         <div class="logo">Web Programming</div>
        
         <div class="nav-links">
-         <a href="ex1.php">EXERCISE 1</a>
-          <a href="ex2.php">EXERCISE 2</a>
-          <a href="ex3.php">EXERCISE 3</a>
-          <a href="ex4.php">EXERCISE 4</a>
-          <a href="#">EXERCISE 5</a>
+        <a href="#vehicles">Test Deriv</a>
+          <a href="#new-cars">NEW CARS</a>
+          <a href="#events">EVENTS</a>
+          <a href="#events">SERVICE</a>
+          <a href="#events">CONTACT</a>
+          <!-- More links here -->
           
         </div>
         <div class="language-switcher">
