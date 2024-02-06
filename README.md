@@ -43,9 +43,9 @@ Preparation of a form where customers can see the best-selling car brands in the
 
 List the database tables that are part of your project. 
 
-- Table 1 (Created By): Table Name 
-- Table 2 (Created By): Table Name 
-- Table 3 (Created By): Table Name 
+- Table 1 (POORYA ZARE JANAKBARI): Table Name : Reservations
+- Table 2 (POORYA ZARE JANAKBARI): Table Name : Users
+- Table 3 (POORYA ZARE JANAKBARI): Table Name : Vehicles 
 
 > Include the ER Diagram of the database. 
 
