@@ -12,7 +12,7 @@
         <div class="logo">CAR SHOP</div>
        
         <div class="nav-links">
-        <a href="#vehicles">Test Deriv</a>
+        <a href="testdrive.php">Test Deriv</a>
           <a href="#new-cars">NEW CARS</a>
           <a href="#events">EVENTS</a>
           <a href="#events">SERVICE</a>
