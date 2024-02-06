@@ -1,5 +1,5 @@
 <?php
-
+$title="function3";
 include 'header.php'; ?>
 
 
