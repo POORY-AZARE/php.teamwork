@@ -1,6 +1,6 @@
 body {
   color: #fdfdfd;
-  background-color: #6e6e6e;
+  background-color: #000000;
   font-family: "Times New Roman", Times, serif;
 }
 main {
@@ -9,9 +9,7 @@ main {
   padding-right: 25px;
   line-height: 1.6;
 }
-h3 {
-  color: bisque;
-}
+
 header {
   height: auto;
   min-height: 20vh;
@@ -24,11 +22,6 @@ header {
   padding: 30px;
   background-color: #333333;
   color: white;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .nav-links {

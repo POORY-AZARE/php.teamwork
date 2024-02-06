@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Programming</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <title>CAR SHOP</title>
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo">Web Programming</div>
+        <div class="logo">CAR SHOP</div>
        
         <div class="nav-links">
         <a href="#vehicles">Test Deriv</a>
@@ -28,7 +27,8 @@
       </nav>
       
       <div class="special-message">
-
+        You Will Find New, little-used, luxury and Supercars in Car Shop <br />
+        Find Your Perfect Vehicles
       </div>
 
       
