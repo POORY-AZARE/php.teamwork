@@ -1,17 +1,7 @@
 </main>
 
     <footer>
-    <?php
-   
-    $filePath = $_SERVER['SCRIPT_FILENAME'];
-    $fileName = basename($filePath);
-    $lastModifiedTime = filemtime($filePath);
-    $formattedTime = date("F d Y H:i:s", $lastModifiedTime);
-
-    echo "<footer>";
-    echo "Last modified: " . $formattedTime . " (File: " . $fileName . ")";
-    echo "</footer>";
-?>
+    
       <div class="footer-rectangle">
         <div class="footer-content">
           <div class="footer-section about">

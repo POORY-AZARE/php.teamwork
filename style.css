@@ -11,8 +11,12 @@ main {
 }
 
 header {
+  background-image: url("images/01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: auto;
-  min-height: 20vh;
+  min-height: 1000px;
 }
 
 .navbar {
@@ -39,6 +43,50 @@ header {
 .language-switcher a {
   color: white;
   text-decoration: none;
+}
+
+/* New Special Message CSS */
+.special-message {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: #333;
+  text-align: center; /* Center the text */
+  padding: 20px 0; /* Add some padding above and below the text */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  color: white;
+  font-size: 18px;
+  position: relative; /* Positioning relative to its normal position */
+  z-index: 2; /* Ensure it's above the background image */
+}
+
+.car-gallery {
+  width: 80%;
+  height: auto;
+  display: gray;
+  margin: auto;
+}
+
+.car-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.car-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.car-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.car-description {
+  text-align: center;
+  padding-top: 10px;
+  color: #ddd;
 }
 
 footer {
