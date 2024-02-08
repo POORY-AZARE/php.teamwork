@@ -29,8 +29,17 @@ CREATE TABLE Feedback (
   
 );
 
-
-
+```
+# table 4 Amin Hamidi Younessi tabale name : Advance search
+```sql
+CREATE TABLE CarFeatures (
+  CarID INT AUTO_INCREMENT PRIMARY KEY,
+  Make VARCHAR(50) NOT NULL,
+  Model VARCHAR(50) NOT NULL,
+  Year INT NOT NULL,
+  Price DECIMAL(10,2) NOT NULL,
+  Type VARCHAR(50) NOT NULL
+);
 
 
 ```
