@@ -24,9 +24,9 @@ CREATE TABLE Feedback (
   Title VARCHAR(100) NOT NULL,
   Comment TEXT NOT NULL,
   Rating INT,
-  DateSubmitted DATE NOT NULL,
-  FOREIGN KEY (CarID) REFERENCES CarsForSale(CarID),
-  FOREIGN KEY (UserID) REFERENCES Users(UserID)
+  DateSubmitted DATE NOT NULL
+  
+  
 );
 
 
