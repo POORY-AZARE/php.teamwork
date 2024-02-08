@@ -13,3 +13,27 @@ CREATE TABLE `TestDriveBookings` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 ```
+
+
+# table 3 charity kabutbei tabale name : feedback
+```sql
+CREATE TABLE Feedback (
+  FeedbackID INT AUTO_INCREMENT PRIMARY KEY,
+  CarID INT,
+  UserID INT,
+  Title VARCHAR(100) NOT NULL,
+  Comment TEXT NOT NULL,
+  Rating INT,
+  DateSubmitted DATE NOT NULL,
+  FOREIGN KEY (CarID) REFERENCES CarsForSale(CarID),
+  FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+
+
+
+
+
+```
+
+
+
