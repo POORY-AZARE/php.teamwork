@@ -2,15 +2,17 @@
 
 ```sql
 
-CREATE TABLE `TestDriveBookings` (
-  `BookingID` int NOT NULL,
-  `FirstName` varchar(50) NOT NULL,
-  `LastName` varchar(50) NOT NULL,
-  `Email` varchar(50) NOT NULL,
-  `PhoneNumber` varchar(50) NOT NULL,
-  `VehicleModel` varchar(50) NOT NULL,
-  `Date` date NOT NULL
-); ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE TestDrives (
+  UserID INT PRIMARY KEY,
+  CarID INT,
+  FirstName VARCHAR(50) NOT NULL,
+  LastName VARCHAR(50) NOT NULL,
+  Email VARCHAR(100) NOT NULL,
+  ScheduledDate DATE NOT NULL,
+  Status VARCHAR(50) NOT NULL,
+  FOREIGN KEY (CarID) REFERENCES Cars(CarID)
+
+);
 
 ```
 
@@ -24,9 +26,9 @@ CREATE TABLE Feedback (
   Title VARCHAR(100) NOT NULL,
   Comment TEXT NOT NULL,
   Rating INT,
-  DateSubmitted DATE NOT NULL
-
-
+  DateSubmitted DATE NOT NULL,
+  FOREIGN KEY (CarID) REFERENCES Cars(CarID),
+  FOREIGN KEY (UserID) REFERENCES TestDrives(UserID)
 );
 
 ```
@@ -51,12 +53,12 @@ CREATE TABLE CarFeatures (
 ```sql
 
 CREATE TABLE TopSellingCars (
-  CarID INT AUTO_INCREMENT PRIMARY KEY,
-  Make VARCHAR(50) NOT NULL,
-  Model VARCHAR(50) NOT NULL,
+  TopSellingID INT AUTO_INCREMENT PRIMARY KEY,
+  CarID INT,
+  Month VARCHAR(20) NOT NULL,
   Year INT NOT NULL,
-  Price DECIMAL(10,2) NOT NULL,
-  LastUpdated DATE NOT NULL
+  UnitsSold INT NOT NULL,
+  FOREIGN KEY (CarID) REFERENCES Cars(CarID)
 );
 
 ```
