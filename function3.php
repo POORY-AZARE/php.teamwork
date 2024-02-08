@@ -29,7 +29,5 @@ include 'header.php'; ?>
     <button type="submit" class="btn btn-primary" name="submit">Submit Feedback</button>
 </form>
 
-
-
 <?php
 include 'footer.php'; ?>
