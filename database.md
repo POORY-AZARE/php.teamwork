@@ -33,10 +33,10 @@ CREATE TABLE Feedback (
 
 ```
 
-# table 4 Amin Hamidi Younessi tabale name : Advance search
+# table 4 Amin Hamidi Younessi tabale name : Cars
 
 ```sql
-CREATE TABLE CarFeatures (
+CREATE TABLE Cars (
   CarID INT AUTO_INCREMENT PRIMARY KEY,
   Make VARCHAR(50) NOT NULL,
   Model VARCHAR(50) NOT NULL,
