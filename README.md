@@ -36,8 +36,7 @@ Customers can fill out a registration form and select their preferred vehicle fr
 I will create a form for adding new cars with their brands and the price and also removing the already taken one. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
 
 ### Feature 4
-Preparation of a form where customers can see the best-selling car brands in the desired year, for example in 2023. Provide links to related code files (github) & link to the feature (shell.hamk.fi
----
+Preparation of a form where customers can see the best-selling car brands in the desired year, for example in 2023. Provide links to related code files (github) & link to the feature (shell.hamk.fi---
 
 ## Database Tables
 
