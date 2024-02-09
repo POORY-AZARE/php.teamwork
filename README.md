@@ -1,8 +1,8 @@
 
+CARSHOP - Team Number: 20
 
-CARSHOP - Team Number : 20
-
-A brief description of your web development project.
+The project involves developing "CarShop," a website dedicated to facilitating the purchase of vehicles.
+It aims to provide a seamless online platform for users to browse, select, and buy cars efficiently.
 
 ## Table of Contents
 - [Features](#features)
