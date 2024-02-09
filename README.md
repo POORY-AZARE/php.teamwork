@@ -43,12 +43,13 @@ Preparation of a form where customers can see the best-selling car brands in the
 List the database tables that are part of your project. 
 
 - Table 1 (POORYA ZARE JANAKBARI): Table Name : Reservations
-- Table 2 (): Table Name : 
+- Table 2 (): Table Name : Nastaran dehnavi : orders
 - Table 3 (charity kabutbei): Table Name : feedback
 - Table 4 (Amin Hamidi Younessi): Table Name : Advance search
 - 
 > Include the ER Diagram of the database.
-![Screenshot 2024-02-08 210620](https://github.com/POORY-AZARE/php.teamwork/assets/142793636/7850e430-eb9a-435f-b526-11530582dce1)
+
+![tables](https://github.com/POORY-AZARE/php.teamwork/assets/142793636/8fb084bd-2d31-4bd1-a1d2-444cc522e4e2)
 
 
 
