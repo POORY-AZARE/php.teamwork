@@ -3,15 +3,13 @@
 ```sql
 
 CREATE TABLE TestDrives (
-  UserID INT PRIMARY KEY,
+  TestDriveID INT AUTO_INCREMENT PRIMARY KEY,
   CarID INT,
-  FirstName VARCHAR(50) NOT NULL,
-  LastName VARCHAR(50) NOT NULL,
-  Email VARCHAR(100) NOT NULL,
   ScheduledDate DATE NOT NULL,
   Status VARCHAR(50) NOT NULL,
-  FOREIGN KEY (CarID) REFERENCES Cars(CarID)
-
+  OrderID INT,
+  FOREIGN KEY (CarID) REFERENCES Cars(CarID),
+  FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
 
 ```
@@ -22,13 +20,13 @@ CREATE TABLE TestDrives (
 CREATE TABLE Feedback (
   FeedbackID INT AUTO_INCREMENT PRIMARY KEY,
   CarID INT,
-  UserID INT,
+  OrderID INT,
   Title VARCHAR(100) NOT NULL,
   Comment TEXT NOT NULL,
   Rating INT,
   DateSubmitted DATE NOT NULL,
   FOREIGN KEY (CarID) REFERENCES Cars(CarID),
-  FOREIGN KEY (UserID) REFERENCES TestDrives(UserID)
+  FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
 
 ```
@@ -48,16 +46,19 @@ CREATE TABLE Cars (
 
 ```
 
-# table 2 Nastaran Dehnavi tabale name : Top-selling_cars
+# table 2 Nastaran Dehnavi tabale name : orders
 
 ```sql
 
-CREATE TABLE TopSellingCars (
-  TopSellingID INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE Orders (
+  OrderID INT AUTO_INCREMENT PRIMARY KEY,
   CarID INT,
-  Month VARCHAR(20) NOT NULL,
-  Year INT NOT NULL,
-  UnitsSold INT NOT NULL,
+  FirstName VARCHAR(50) NOT NULL,
+  LastName VARCHAR(50) NOT NULL,
+  EmailAddress VARCHAR(100) NOT NULL,
+  OrderDate DATE NOT NULL,
+  Quantity INT NOT NULL,
+  TotalPrice DECIMAL(10,2) NOT NULL,
   FOREIGN KEY (CarID) REFERENCES Cars(CarID)
 );
 
