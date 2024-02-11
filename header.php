@@ -12,8 +12,8 @@
         <div class="logo">CAR SHOP</div>
        
         <div class="nav-links">
-        <a href="testdrive.php">Test Deriv</a>
-          <a href="#new-cars">NEW CARS</a>
+        <a href="testdrive.php">Test Deriv Reservation</a>
+          <a href="feedback.php">Feedback</a>
           <a href="#events">EVENTS</a>
           <a href="#events">SERVICE</a>
           <a href="#events">CONTACT</a>
