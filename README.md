@@ -18,7 +18,7 @@ In this section, list and describe the features or functionality that you are wo
 
 - [ ] Feature 1 (Amin Hamidi Younessi): Advance search. 
 - [ ] Feature 2 (POORYA ZARE JANAKBARI): Online Test Drive Reservation.
-- [ ] Feature 3 (charity kabutbei): adding of new cars
+- [ ] Feature 3 (charity kabutbei): feedback
 - [ ] Feature 4 (Nastaran Dehnavi): search of brands in  the specific year
 
 > Add features as required. 
@@ -43,7 +43,7 @@ Preparation of a form where customers can see the best-selling car brands in the
 List the database tables that are part of your project. 
 
 - Table 1 (POORYA ZARE JANAKBARI): Table Name :TestDerives
-- Table 2 (): Table Name : Nastaran dehnavi : orders
+- Table 2 (Nastaran Dehnavi): Table Name : Orders
 - Table 3 (charity kabutbei): Table Name : feedback
 - Table 4 (Amin Hamidi Younessi): Table Name : Advance search
 - 
