@@ -66,6 +66,9 @@ List and describe any forms that have been created as part of your project. Incl
   
 - Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
 
+-  Form 4: (Nastaran Dehnavi): Form Name: News (github) | Link to the form (shell.hamk.fi).  | Validations Applied
+- The News form gives to  customers the latest news about new offers , new payments for all cusomers .
+
 
 ---
 
