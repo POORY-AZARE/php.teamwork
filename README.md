@@ -78,7 +78,7 @@ List any tables that you have created in the project work
 
 - Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 - Table 2 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table 3 (Charity kabutbei): feedback | Link to the related code file (https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php) | Link to the table (shell.hamk.fi).
+- Table 3 (Charity kabutbei): feedback | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 - Table Orders (Created By): Nastaran Dehnavi | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 
 ---
