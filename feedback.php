@@ -1,5 +1,5 @@
 <?php
-$title="feedback";
+$title="Feedback";
 include 'header.php'; ?>
 <h2>Submit Your Feedback:</h2>
 <form name="feedbackForm" method="post" action="submitFeedback.php">
@@ -36,7 +36,6 @@ include 'header.php'; ?>
     </div>
     <button type="submit" class="btn btn-primary" name="submitFeedback">Submit Feedback</button>
 </form>
-
 
 <?php
 include 'footer.php'; ?>
