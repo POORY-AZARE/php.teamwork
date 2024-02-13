@@ -28,7 +28,13 @@
         <input type="date" class="form-control" id="Date" name="Date" required>
     </div>
     <button type="submit" class="btn btn-primary" name="submitTestDrive">Submit</button>
+    
 </form>
+
+<?php 
+include 'pz.php';
+?>
+
 <script>
     // function for name 
     function validateName() {
@@ -43,6 +49,14 @@
         nameError.innerHTML = "";
         return true;
     }
+
+
+
+
+
+
+
+
     }
 
         // function for email 
