@@ -58,7 +58,6 @@ header {
   z-index: 2; /* Ensure it's above the background image */
 }
 
-/* Add these styles to your styles.css file */
 .search-container {
   display: flex;
   justify-content: center;
@@ -81,6 +80,68 @@ header {
 }
 .search-button:hover {
   background-color: #0056b3;
+}
+
+.form-group {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* Added to keep width at 100% including padding */
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="number"]:focus,
+.form-group input[type="date"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styles */
+span.error {
+  color: red;
+  font-size: 0.875em;
+}
+
+/* Add some padding to the bottom of the form */
+form {
+  padding-bottom: 40px;
 }
 
 .car-gallery {

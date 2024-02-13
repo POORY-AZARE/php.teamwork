@@ -1,16 +1,10 @@
 <?php
 $title="Feedback";
 include 'header.php'; ?>
+
 <h2>Submit Your Feedback:</h2>
-<form name="feedbackForm" method="post" action="submitFeedback.php">
-    <div class="form-group">
-        <label for="CarID">Car ID:</label>
-        <input type="number" class="form-control" id="CarID" placeholder="Enter the Car ID" name="CarID" required>
-    </div>
-    <div class="form-group">
-        <label for="OrderID">Order ID (Optional):</label>
-        <input type="number" class="form-control" id="OrderID" placeholder="Enter the Order ID (if applicable)" name="OrderID">
-    </div>
+<form name="feedbackForm" method="post" action="feedbackProcess.php"> <!-- Make sure this points to the script above -->
+
     <div class="form-group">
         <label for="Title">Title:</label>
         <input type="text" class="form-control" id="Title" placeholder="Enter a title for your feedback" name="Title" required>
@@ -37,5 +31,4 @@ include 'header.php'; ?>
     <button type="submit" class="btn btn-primary" name="submitFeedback">Submit Feedback</button>
 </form>
 
-<?php
-include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
