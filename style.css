@@ -2,12 +2,7 @@ body {
   color: #fdfdfd;
   background-color: #000000;
   font-family: "Times New Roman", Times, serif;
-}
-main {
-  padding-bottom: 10vh;
-  padding-left: 25px;
-  padding-right: 25px;
-  line-height: 1.6;
+  padding-top: 20vh;
 }
 
 header {

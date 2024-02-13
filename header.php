@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CAR SHOP</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
  
   </head>
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo">CAR SHOP</div>
-       
+         <a href="index.php" class="to-top-button">CARSHOP WEBSITE</a>
+        </div>
         <div class="nav-links">
         <a href="testdrive.php">Test Deriv Reservation</a>
           <a href="feedback.php">Feedback</a>
-          <a href="#events">EVENTS</a>
+          <a href="subscribe.php">subscribe</a>
           <a href="#events">SERVICE</a>
           <a href="#events">CONTACT</a>
           <!-- More links here -->
