@@ -52,7 +52,7 @@
               "Join our newsletter to receive updates on new arrivals, special
               offers, and all the news."
             </p>
-            <a href="mailto:your@email.address"
+            <a href="subscribe.php"
               ><img src="images/email.png" alt="Email Icon"
             /></a>
           </div>
