@@ -16,8 +16,8 @@
           <a href="feedback.php">Feedback</a>
           <a href="subscribe.php">subscribe</a>
           <a href="#events">SERVICE</a>
-          <a href="login.php">Login</a>
-          <!-- More links here -->
+          <a href="#login.php">Login</a>
+         
           
         </div>
         <div class="language-switcher">
@@ -32,7 +32,7 @@
       </div>
 
       <div class="search-bar">
-    <!-- The action attribute should point to your search processing script -->
+    <!-- The action attribute  -->
     <form action="serchprocess.php" method="get">
         <select name="type" id="type">
             <option value="">Type</option>
