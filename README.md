@@ -39,7 +39,7 @@ Customers can fill out a registration form and select their preferred vehicle fr
 I will create a form for feedback where customer will give their review of the cars they bought and rate it. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) & link to the feature (shell.hamk.fi) .
 
 ### Feature 4
-featurs for custumers Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) & link to the feature (shell.hamk.fi---
+This feature is about  customers who request for after-sale service and need to change or fix some pieces of their car. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) & link to the feature (shell.hamk.fi---
 
 ### Feature 5
 This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature (shell.hamk.fi) .
@@ -49,7 +49,7 @@ This feature enables customers to be directed to the online payment page by clic
 List the database tables that are part of your project. 
 
 - Table 1 (POORYA ZARE JANAKBARI): Table Name :TestDerives
-- Table 2 (Nastaran Dehnavi): Table Name : Orders
+- Table 2 (Nastaran Dehnavi): Table Name : Service
 - Table 3 (charity kabutbei): Table Name : feedback
 - Table 4 (Amin Hamidi Younessi): Table Name : Advance search
 - 
@@ -72,8 +72,9 @@ List and describe any forms that have been created as part of your project. Incl
   
 - Form 3: (charity kabutbei): Form Name:feedback Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) | Link to the form (shell.hamk.fi).  |the feedback form is form where the customer gives reviews about the car the bought 
 
--  Form 4: (Nastaran Dehnavi): Form Name: News ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) | Link to the form (shell.hamk.fi).  | Validations Applied
-- The News form gives to  customers the latest news about new offers , new payments for all cusomers .
+-  Form 4: (Nastaran Dehnavi): Form Name: Service([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) | Link to the form (shell.hamk.fi).  | Validations Applied
+- In this form customers who have a request for service the car,should fill the form like enter the name and email and also phone number, then press the submit key,after that Theie information will 
+  be store in our database. 
 
 
 ---
