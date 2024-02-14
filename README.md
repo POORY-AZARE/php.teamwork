@@ -20,7 +20,8 @@ In this section, list and describe the features or functionality that you are wo
 - [ ] Feature 2 (POORYA ZARE JANAKBARI): Online Test Drive Reservation.
 - [ ] Feature 3 (charity kabutbei): feedback
 - [ ] Feature 4 (Nastaran Dehnavi): Service
-- [ ] Feature 5 (POORYA ZARE JANAKBARI): Online Payment 
+- [ ] Feature 5 (POORYA ZARE JANAKBARI): Online Payment
+- [ ] Feature 6 (POORYA ZARE JANAKBARI): Subscribe
 
 
 
@@ -43,6 +44,10 @@ This feature is about  customers who request for after-sale service and need to 
 
 ### Feature 5
 This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php)) .
+
+### Feature 6
+Through this feature and by subscribing to the website's newsletter, people will be informed of the latest news, offers, payment terms, and discounts, and will receive emails on a weekly or monthly basis.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php](http://shell.hamk.fi/~poorya23000/php.teamwork/subscribe.php))) .
+
 
 ## Database Tables
 
