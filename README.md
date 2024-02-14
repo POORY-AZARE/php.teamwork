@@ -60,7 +60,8 @@ List the database tables that are part of your project.
 - 
 > Include the ER Diagram of the database.
 
-![tables](https://github.com/POORY-AZARE/php.teamwork/assets/142793636/8fb084bd-2d31-4bd1-a1d2-444cc522e4e2)
+![TEABLES](https://github.com/POORY-AZARE/php.teamwork/assets/142793636/14bd733a-63a2-4e52-a98d-b41fc0bd70ae)
+
 
 
 
