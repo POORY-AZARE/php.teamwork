@@ -84,7 +84,7 @@ function validatePhoneNumber (){
     const phoneError= document.getElementById ("phoneError");
 if(PhoneNumber.length < 3 || PhoneNumber.length > 20 ){
 
-    phoneError.innerHTML= "Phone Number is wrong, it should be more than 3 and less than 20";
+    phoneError.innerHTML= "Phone Number is wrong, it should be more than 3 and less than 20.";
 return false ; 
 }
 else {
