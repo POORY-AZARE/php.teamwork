@@ -1,5 +1,5 @@
 <?php
-// Start the session
+
 session_start();
 
 // Check if the user is logged in, if not then redirect to login page
@@ -8,10 +8,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 
-// Include database file (Assuming you have a file that handles the database connection)
+
 include 'pz.php';
 
-// Your PHP code to retrieve car data for editing will be here
+
 ?>
 
 <!-- HTML form for adding a new car -->
@@ -29,7 +29,7 @@ include 'pz.php';
     <input type="text" name="car_id" placeholder="Car ID" required>
     <input type="text" name="model" placeholder="New Car Model">
     <input type="text" name="price" placeholder="New Price">
-    <!-- Add other fields as necessary -->
+
     <input type="submit" name="action" value="Update Car">
     <input type="submit" name="action" value="Delete Car">
 </form>
