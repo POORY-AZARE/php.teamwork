@@ -32,12 +32,87 @@
 </form>
 
 <script>
-// JavaScript validation functions...
+// function to validate firstname
+function validateFname (){
+const FirstName= document.getElementById("FirstName").value;
+const firstNameError= document.getElementById ("firstNameError");
+if(FirstName.length < 3 || FirstName.length > 20 ){
 
-// Similar to the above, you will add event listeners for real-time validation
-// and the corresponding validate functions for each input field.
+    firstNameError.innerHTML= "First Name is wrong, it should be more than 3 and less than 20.";
+    return false ; 
+}
+else {
+    firstNameError.innerHTML=""; 
+    return true;
+}
 
-// Add your JavaScript validation here...
+}  
+// function to validate lastname
+function validateLname (){
+    const LastName= document.getElementById("LastName").value;
+    const lastNameError= document.getElementById ("lastNameError");
+ 
+if(LastName.length < 3 || LastName.length > 20 ){
+
+    lastNameError.innerHTML= "Last Name is wrong, it should be more than 3 and less than 20";
+return false ; 
+}
+else {
+    lastNameError.innerHTML=""; 
+return true;
+}
+    
+} 
+// function to validate email
+function validateEmail (){
+    const Email= document.getElementById("Email").value;
+    const emailError= document.getElementById ("emailError");
+
+if( Email === "" || !Email.includes("@") ){
+    emailError.innerHTML= "Your Email Address is not Valid, Please try again";
+return false ; 
+}
+else {
+    emailError.innerHTML=""; 
+return true;
+}
+
+}
+// function to validate PhoneNumber
+function validatePhoneNumber (){
+    const PhoneNumber= document.getElementById("PhoneNumber").value;
+    const phoneError= document.getElementById ("phoneError");
+if(PhoneNumber.length < 3 || PhoneNumber.length > 20 ){
+
+    phoneError.innerHTML= "Phone Number is wrong, it should be more than 3 and less than 20";
+return false ; 
+}
+else {
+    phoneError.innerHTML=""; 
+return true;
+}
+function validateCarType (){
+    const CarType= document.getElementById("CarType").value;
+    const CarType= document.getElementById ("CarType");
+if(CarType.length < 2 || CarType.length > 20 ){
+
+    CarTypeError.innerHTML= "CarTyp is wrong, it should be more than 2 and less than 20";
+return false ; 
+}
+else {
+    phoneError.innerHTML=""; 
+return true;
+}
+
+}
+
+// event listeners for real time validation
+document.getElementById("FirstName").addEventListener("input", validateFname);
+document.getElementById("LastName").addEventListener("input", validateLname);
+document.getElementById("Email").addEventListener("input", validateEmail);
+document.getElementById("PhoneNumber").addEventListener("input", validatePhoneNumber);
+document.getElementById("CarType").addEventListener("input", validateCarType);
+
 
 </script>
 
