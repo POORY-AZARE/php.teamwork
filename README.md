@@ -32,7 +32,7 @@ People will come to our website and search about brands, models, and the car typ
 
 ### Feature 2
 
-Customers can fill out a registration form and select their preferred vehicle from the available cars for a test drive. After confirming the date and time for the test, they will receive an email confirmation. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/testdrive.php)) & link to the feature (shell.hamk.fi) .
+Customers can fill out a registration form and select their preferred vehicle from the available cars for a test drive. After confirming the date and time for the test, they will receive an email confirmation. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/testdrive.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/testdrive.php)) .
 
 ### Feature 3
 
@@ -65,7 +65,7 @@ List the database tables that are part of your project.
 
 List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
 
-- Form 1 (POORYA ZARE JANAKBARI): Test Drive : Link to the related code file : ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/testdrive.php)) | Link to the form (shell.hamk.fi). 
+- Form 1 (POORYA ZARE JANAKBARI): Test Drive : Link to the related code file : ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/testdrive.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/testdrive.php)). 
 - The test drive form allows customers to schedule a test drive for their preferred vehicles from the available cars in the database, capturing essential details like first name, last name, email, and the test drive date.
   
 - Form 2: (َAmin Hamidi Younessi): Advance search: Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/serch.php)) | Link to the form (shell.hamk.fi).  | By this form I created, people can easily find their desired car Model depends on the car Types(depends on the fuels, gasoline,...), car brands.
