@@ -3,7 +3,7 @@ $title="Feedback";
 include 'header.php'; ?>
 
 <h2>Submit Your Feedback:</h2>
-<form name="feedbackForm" method="post" action="feedbackProcess.php"> <!-- Make sure this points to the script above -->
+<form name="feedbackForm" method="post" action="feedbackProcess.php"> 
 
     <div class="form-group">
         <label for="Title">Title:</label>

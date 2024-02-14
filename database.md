@@ -5,7 +5,12 @@
 CREATE TABLE TestDrives (
   TestDriveID INT AUTO_INCREMENT PRIMARY KEY,
   CarID INT,
-  ScheduledDate DATE NOT NULL,
+  FirstName varchar(50),
+  LastName varchar(50),
+  Email text NOT NULL,
+  PhoneNumber varchar(50) NOT NULL,
+  VehicleModel varchar(50) NOT NULL,
+  Date  DATE NOT NULL,
   Status VARCHAR(50) NOT NULL,
   OrderID INT,
   FOREIGN KEY (CarID) REFERENCES Cars(CarID),
@@ -62,4 +67,15 @@ CREATE TABLE Orders (
   FOREIGN KEY (CarID) REFERENCES Cars(CarID)
 );
 
+```
+
+```sql
+CREATE TABLE SERVICE (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    contact_number VARCHAR(20) NOT NULL,
+    car_type VARCHAR(100) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
 ```

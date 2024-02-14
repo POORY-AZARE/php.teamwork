@@ -14,8 +14,8 @@
         <div class="nav-links">
         <a href="testdrive.php">Test Deriv Reservation</a>
           <a href="feedback.php">Feedback</a>
-          <a href="subscribe.php">subscribe</a>
-          <a href="#events">SERVICE</a>
+          <a href="subscribe.php">Subscribe</a>
+          <a href="service.php">Service</a>
           <a href="#login.php">Login</a>
          
           
