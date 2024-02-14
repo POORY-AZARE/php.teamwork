@@ -46,7 +46,7 @@ This feature is about  customers who request for after-sale service and need to 
 This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php)) .
 
 ### Feature 6
-Through this feature and by subscribing to the website's newsletter, people will be informed of the latest news, offers, payment terms, and discounts, and will receive emails on a weekly or monthly basis.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php](https://github.com/POORY-AZARE/php.teamwork/blob/main/subscribe.php).
+Through this feature and by subscribing to the website's newsletter, people will be informed of the latest news, offers, payment terms, and discounts, and will receive emails on a weekly or monthly basis.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) &  & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/subscribe.php)) .
 
 
 ## Database Tables
