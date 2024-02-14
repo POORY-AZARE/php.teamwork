@@ -45,9 +45,6 @@ This feature is about  customers who request for after-sale service and need to 
 ### Feature 5
 This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php)) .
 
-### Feature 6
-Through this feature and by subscribing to the website's newsletter, people will be informed of the latest news, offers, payment terms, and discounts, and will receive emails on a weekly or monthly basis.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) &  & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/subscribe.php)) .
-
 
 ## Database Tables
 
@@ -57,7 +54,7 @@ List the database tables that are part of your project.
 - Table 2 (Nastaran Dehnavi): Table Name : Service
 - Table 3 (charity kabutbei): Table Name : feedback
 - Table 4 (Amin Hamidi Younessi): Table Name : Advance search
-- 
+- Table 5 (POORYA ZARE JANAKBARI): Table Name :newsletter_subscribers
 > Include the ER Diagram of the database.
 
 ![TEABLES](https://github.com/POORY-AZARE/php.teamwork/assets/142793636/14bd733a-63a2-4e52-a98d-b41fc0bd70ae)
@@ -80,8 +77,12 @@ List and describe any forms that have been created as part of your project. Incl
 
 -  Form 4: (Nastaran Dehnavi): Form Name: Service([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) | Link to the form (shell.hamk.fi).  | Validations Applied
 - In this form customers who have a request for service the car,should fill the form like enter the name and email and also phone number, then press the submit key,after that Theie information will 
-  be store in our database. 
+  be store in our database.
+  
+- Form 5 (POORYA ZARE JANAKBARI): Test Drive : Link to the related code file : ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/testdrive.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/testdrive.php)). 
+- The test drive form allows customers to schedule a test drive for their preferred vehicles from the available cars in the database, capturing essential details like first name, last name, email, and the test drive date.
 
+- Form 6 (POORYA ZARE JANAKBARI):Through this form, by subscribing to the website's newsletter, people will be informed of the latest news, offers, payment terms, and discounts, and will receive emails on a weekly or monthly basis.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) &  & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/subscribe.php)) .
 
 ---
 
