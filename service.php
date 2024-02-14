@@ -54,7 +54,7 @@ function validateLname (){
  
 if(LastName.length < 3 || LastName.length > 20 ){
 
-    lastNameError.innerHTML= "Last Name is wrong, it should be more than 3 and less than 20";
+    lastNameError.innerHTML= "Last Name is wrong, it should be more than 3 and less than 20.";
 return false ; 
 }
 else {
@@ -69,7 +69,7 @@ function validateEmail (){
     const emailError= document.getElementById ("emailError");
 
 if( Email === "" || !Email.includes("@") ){
-    emailError.innerHTML= "Your Email Address is not Valid, Please try again";
+    emailError.innerHTML= "Your Email Address is not Valid, Please try again.";
 return false ; 
 }
 else {
@@ -96,7 +96,7 @@ function validateCarType (){
     const CarType= document.getElementById ("CarType");
 if(CarType.length < 2 || CarType.length > 20 ){
 
-    CarTypeError.innerHTML= "CarTyp is wrong, it should be more than 2 and less than 20";
+    CarTypeError.innerHTML= "CarTyp is wrong, it should be more than 2 and less than 20.";
 return false ; 
 }
 else {
