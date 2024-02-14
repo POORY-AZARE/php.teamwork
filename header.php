@@ -81,8 +81,7 @@
             <!-- Add other price ranges as options -->
         </select>
 
-        <!-- The search input can be used to enter a keyword for searching -->
-        <input type="text" name="keyword" placeholder="Search for cars..." />
+
 
         <button type="submit">Search</button>
     </form>

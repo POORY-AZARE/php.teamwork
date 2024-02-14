@@ -2,7 +2,6 @@ body {
   color: #fdfdfd;
   background-color: #000000;
   font-family: "Times New Roman", Times, serif;
-  padding-top: 20vh;
 }
 
 header {
@@ -12,13 +11,19 @@ header {
   background-repeat: no-repeat;
   height: auto;
   min-height: 1000px;
+  padding-top: 10vh;
 }
-
+.search-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 10px;
   background-color: #333333;
   color: white;
 }
