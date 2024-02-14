@@ -16,7 +16,7 @@
           <a href="feedback.php">Feedback</a>
           <a href="subscribe.php">subscribe</a>
           <a href="#events">SERVICE</a>
-          <a href="#events">CONTACT</a>
+          <a href="login.php">Login</a>
           <!-- More links here -->
           
         </div>
