@@ -42,7 +42,7 @@ I will create a form for feedback where customer will give their review of the c
 Preparation of a form where customers can see the best-selling car brands in the desired year, for example in 2023. Provide links to related code files (github) & link to the feature (shell.hamk.fi---
 
 ### Feature 5
-This feature enables customers to be directed to the online payment page by clicking the purchase button.
+This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature (shell.hamk.fi) .
 
 ## Database Tables
 
