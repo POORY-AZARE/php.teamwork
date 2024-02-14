@@ -6,8 +6,8 @@ include 'header.php'; ?>
 <form name="feedbackForm" method="post" action="feedbackProcess.php" required minlength="3" maxlength="20"> 
 
     <div class="form-group">
-        <label for="Title">Title:</label>
-        <input type="text" class="form-control" id="Title" placeholder="Enter a title for your feedback" name="Title"  required minlength="3" maxlength="20">
+        <label for="Name">Full Name</label>
+        <input type="text" class="form-control" id="Title" placeholder="Enter your Full name" name="Title"  required minlength="3" maxlength="20">
     </div>
     <div class="form-group">
         <label for="Comment">Comment:</label>
