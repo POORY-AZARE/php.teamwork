@@ -32,7 +32,7 @@ People will come to our website and search about brands, models, and the car typ
 
 ### Feature 2
 
-Customers can fill out a registration form and select their preferred vehicle from the available cars for a test drive. After confirming the date and time for the test, they will receive an email confirmation. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Customers can fill out a registration form and select their preferred vehicle from the available cars for a test drive. After confirming the date and time for the test, they will receive an email confirmation. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/testdrive.php)) & link to the feature (shell.hamk.fi) .
 
 ### Feature 3
 
@@ -42,7 +42,7 @@ I will create a form for feedback where customer will give their review of the c
 Preparation of a form where customers can see the best-selling car brands in the desired year, for example in 2023. Provide links to related code files (github) & link to the feature (shell.hamk.fi---
 
 ### Feature 5
-This feature enables customers to be directed to the online payment page by clicking the purchase button.
+This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature (shell.hamk.fi) .
 
 ## Database Tables
 
