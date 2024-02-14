@@ -1,5 +1,4 @@
 <?php
-// Check if the 'submitServiceRequest' button in the form was clicked
 if (isset($_POST['ServiceRequest'])) {
     // Retrieve data from the form and store it in variables
     $FirstName = $_POST['first_name'];     
