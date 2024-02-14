@@ -11,14 +11,8 @@ header {
   background-repeat: no-repeat;
   height: auto;
   min-height: 1000px;
-  padding-top: 10vh;
 }
-.search-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -56,11 +50,6 @@ header {
   font-size: 18px;
   position: relative; /* Positioning relative to its normal position */
   z-index: 2; /* Ensure it's above the background image */
-}
-
-.search-bar {
-  position: relative;
-  z-index: 1;
 }
 
 .search-bar {
