@@ -6,8 +6,9 @@ include 'header.php'; ?>
 <form name="feedbackForm" method="post" action="feedbackProcess.php" required minlength="3" maxlength="20"> 
 
     <div class="form-group">
-        <label for="Title">Title:</label>
-        <input type="text" class="form-control" id="Title" placeholder="Enter a title for your feedback" name="Title"  required minlength="3" maxlength="20">
+        <label form="FullName">Full Name</label>
+        <input type="text" class="form-control" id="Fullname" placeholder="Enter your Full name" name="Fullname"  required minlength="3" maxlength="20">
+        <span id="FullNameError"></span>
     </div>
     <div class="form-group">
         <label for="Comment">Comment:</label>
@@ -33,16 +34,16 @@ include 'header.php'; ?>
 
 <script>
 // function to validate firstname
-function validateName (){
-const Name= document.getElementById("Name").value;
-const NameError= document.getElementById ("NameError");
-if(Name.length < 3 || FirstName.length > 20 ){
+function validateFullName (){
+const validateFullName= document.getElementById("FullName").value;
+const FullNameError= document.getElementById ("FullNameError");
+if(FullName.length < 3 || FullName.length > 20 ){
 
-    NameError.innerHTML= "Name must be between 3 & 20 characters";
+    FullNameError.innerHTML= "FullName must be between 3 & 20 characters";
     return false ; 
 }
 else {
-    NameError.innerHTML=""; 
+    FullNameError.innerHTML=""; 
     return true;
 }
 
@@ -82,8 +83,7 @@ return true;
 }
 
 // event listeners for real time validation
-document.getElementById("FirstName").addEventListener("input", validateFname);
-document.getElementById("LastName").addEventListener("input", validateLname);
+document.getElementById("FullName").addEventListener("input", validateFullname);
 document.getElementById("Email").addEventListener("input", validateEmail);
 document.getElementById("PhoneNumber").addEventListener("input", validatePhoneNumber);
 

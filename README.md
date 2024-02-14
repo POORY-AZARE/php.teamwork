@@ -19,7 +19,7 @@ In this section, list and describe the features or functionality that you are wo
 - [ ] Feature 1 (Amin Hamidi Younessi): Advance search. 
 - [ ] Feature 2 (POORYA ZARE JANAKBARI): Online Test Drive Reservation.
 - [ ] Feature 3 (charity kabutbei): feedback
-- [ ] Feature 4 (Nastaran Dehnavi): Best Selling Cars
+- [ ] Feature 4 (Nastaran Dehnavi): Service
 - [ ] Feature 5 (POORYA ZARE JANAKBARI): Online Payment 
 
 
@@ -36,10 +36,10 @@ Customers can fill out a registration form and select their preferred vehicle fr
 
 ### Feature 3
 
-I will create a form for feedback where customer will give their review of the cars they bought and rate it. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+I will create a form for feedback where customer will give their review of the cars they bought and rate it. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) & link to the feature (shell.hamk.fi) .
 
 ### Feature 4
-Preparation of a form where customers can see the best-selling car brands in the desired year, for example in 2023. Provide links to related code files (github) & link to the feature (shell.hamk.fi---
+featurs for custumers Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) & link to the feature (shell.hamk.fi---
 
 ### Feature 5
 This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature (shell.hamk.fi) .
@@ -72,7 +72,7 @@ List and describe any forms that have been created as part of your project. Incl
   
 - Form 3: (charity kabutbei): Form Name:feedback Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) | Link to the form (shell.hamk.fi).  |the feedback form is form where the customer gives reviews about the car the bought 
 
--  Form 4: (Nastaran Dehnavi): Form Name: News (github) | Link to the form (shell.hamk.fi).  | Validations Applied
+-  Form 4: (Nastaran Dehnavi): Form Name: News ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) | Link to the form (shell.hamk.fi).  | Validations Applied
 - The News form gives to  customers the latest news about new offers , new payments for all cusomers .
 
 
@@ -84,8 +84,8 @@ List any tables that you have created in the project work
 
 - Table 1 (Amin Hamidi Younessi): Cars | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 - Table 2 (POORYA ZARE JANAKBARI): testdrive | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table (shell.hamk.fi).
-- Table 3 (Charity kabutbei): feedback | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table Orders (Created By): Nastaran Dehnavi | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Table 3 (Charity kabutbei): feedback | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/pz.php)) | Link to the table (shell.hamk.fi).
+- Table Orders (Created By): Nastaran Dehnavi | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table (shell.hamk.fi).
 
 ---
 
