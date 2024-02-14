@@ -36,7 +36,7 @@ Customers can fill out a registration form and select their preferred vehicle fr
 
 ### Feature 3
 
-I will create a form for feedback where customer will give their review of the cars they bought and rate it. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+I will create a form for feedback where customer will give their review of the cars they bought and rate it. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) & link to the feature (shell.hamk.fi) .
 
 ### Feature 4
 featurs for custumers Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) & link to the feature (shell.hamk.fi---
