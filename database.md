@@ -51,23 +51,7 @@ CREATE TABLE Cars (
 
 ```
 
-# table 2 Nastaran Dehnavi tabale name : orders
-
-```sql
-
-CREATE TABLE Orders (
-  OrderID INT AUTO_INCREMENT PRIMARY KEY,
-  CarID INT,
-  FirstName VARCHAR(50) NOT NULL,
-  LastName VARCHAR(50) NOT NULL,
-  EmailAddress VARCHAR(100) NOT NULL,
-  OrderDate DATE NOT NULL,
-  Quantity INT NOT NULL,
-  TotalPrice DECIMAL(10,2) NOT NULL,
-  FOREIGN KEY (CarID) REFERENCES Cars(CarID)
-);
-
-```
+# table 2 Nastaran Dehnavi tabale name : service
 
 ```sql
 CREATE TABLE SERVICE (
