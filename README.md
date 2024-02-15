@@ -34,7 +34,7 @@ Customers can fill out a registration form and select their preferred vehicle fr
 
 ### Feature 3
 
-I will create a form for feedback where customer will give their review of the cars they bought and rate it. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) & link to the feature (shell.hamk.fi) .
+I will create a form for feedback where customer will give their review of the cars they bought and rate it. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~charity23000/php.teamwork/feedback.php)) .
 
 ### Feature 4
 This feature is about  customers who request for after-sale service and need to change or fix some pieces of their car. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) & link to the feature ([shell.hamk.fi---](http://shell.hamk.fi/~nastaran23000/php.teamwork/service.php)
@@ -70,7 +70,7 @@ List and describe any forms that have been created as part of your project. Incl
   
 - Form 2: (َAmin Hamidi Younessi): Advance search: Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/serch.php)) | Link to the form (shell.hamk.fi).  | By this form I created, people can easily find their desired car Model depends on the car Types(depends on the fuels, gasoline,...), car brands.
   
-- Form 3: (charity kabutbei): Form Name:feedback Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) | Link to the form (shell.hamk.fi).  |the feedback form is form where the customer gives reviews about the car the bought 
+- Form 3: (charity kabutbei): Form Name:feedback Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~charity23000/php.teamwork/feedback.php)).  |the feedback form is form where the customer gives reviews about the car the bought 
 
 -  Form 4: (Nastaran Dehnavi): Form Name: Service([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~nastaran23000/php.teamwork/service.php)).  | Validations Applied
 - In this form customers who have a request for service the car,should fill the form like enter the name and email and also phone number, then press the submit key,after that Theie information will be store in our database.
