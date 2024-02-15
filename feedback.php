@@ -3,11 +3,11 @@ $title="Feedback";
 include 'header.php'; ?>
 
 <h2>Submit Your Feedback:</h2>
-<form name="feedbackForm" method="post" action="feedbackProcess.php" required minlength="3" maxlength="20"> 
+<form name="feedbackForm" method="post" action="feedbackProcess.php"> 
 
     <div class="form-group">
         <label form="FullName">Full Name</label>
-        <input type="text" class="form-control" id="Fullname" placeholder="Enter your Full name" name="Fullname"  required minlength="3" maxlength="20">
+        <input type="text" class="form-control" id="Fullname" placeholder="Enter your Fullname" name="Fullname"  required minlength="3" maxlength="20">
         <span id="FullNameError"></span>
     </div>
     <div class="form-group">
