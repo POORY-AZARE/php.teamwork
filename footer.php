@@ -35,13 +35,13 @@
               and exclusive offers.
             </p>
             <div class="social-links">
-              <a href="your-instagram-url"
+              <a href="#"
                 ><img src="images/instagram.png" alt="Instagram"
               /></a>
-              <a href="your-facebook-url"
+              <a href="#"
                 ><img src="images/facebook.png" alt="Facebook"
               /></a>
-              <a href="your-twitter-url"
+              <a href="#"
                 ><img src="images/twitter.png" alt="twitter"
               /></a>
             </div>
