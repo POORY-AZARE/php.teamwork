@@ -26,7 +26,7 @@ In this section, list and describe the features or functionality that you are wo
 
 ### Feature 1
 
-People will come to our website and search about brands, models, and the car types include fuel, hybrid or electricity cars. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+People will come to our website and search about brands, models, and the car types include fuel, hybrid or electricity cars. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/header.php)) & link to the feature (shell.hamk.fi) .
 
 ### Feature 2
 
