@@ -26,7 +26,7 @@ In this section, list and describe the features or functionality that you are wo
 
 ### Feature 1
 
-People will come to our website and search about brands, models, and the car types include fuel, hybrid or electricity cars. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/header.php)) & link to the feature (shell.hamk.fi) .
+People will come to our website and search about brands, models, and the car types include fuel, hybrid or electricity cars. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/header.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~amin23000/phpteamwork/)) .
 
 ### Feature 2
 
@@ -68,7 +68,7 @@ List and describe any forms that have been created as part of your project. Incl
 - Form 1 (POORYA ZARE JANAKBARI): Test Drive : Link to the related code file : ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/testdrive.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/testdrive.php)). 
 - The test drive form allows customers to schedule a test drive for their preferred vehicles from the available cars in the database, capturing essential details like first name, last name, email, and the test drive date.
   
-- Form 2: (َAmin Hamidi Younessi): Advance search: Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/serch.php)) | Link to the form (shell.hamk.fi).  | By this form I created, people can easily find their desired car Model depends on the car Types(depends on the fuels, gasoline,...), car brands.
+- Form 2: (َAmin Hamidi Younessi): Advance search: Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/serch.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~amin23000/phpteamwork/)).  | By this form I created, people can easily find their desired car Model depends on the car Types(depends on the fuels, gasoline,...), car brands.
   
 - Form 3: (charity kabutbei): Form Name:feedback Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~charity23000/php.teamwork/feedback.php)).  |the feedback form is form where the customer gives reviews about the car the bought 
 
