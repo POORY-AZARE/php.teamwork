@@ -34,6 +34,7 @@ switch ($selectedCar) {
     case 'Audi A8 TFSI':
         header('Location: Audi-A8-TFSI.php');
         break;
+        //This block prints a message telling that the desired car was not found.
     default:
         echo '
         The desired car was not found.';
