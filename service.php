@@ -33,7 +33,7 @@
 </form>
 
 <script>
-// JavaScript validation functions
+// JavaScript :
 
 function validateFirstName() {
     const first_name = document.getElementById("first_name").value;
