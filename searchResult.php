@@ -1,4 +1,6 @@
 <?php
+//By this code the variable will initialize by the name of $selectedCar.It retrieves the value from the carSelection key in the $_GET array, 
+//which stores form data submitted using the GET method
 
 $selectedCar = $_GET['carSelection'] ?? '';
 
