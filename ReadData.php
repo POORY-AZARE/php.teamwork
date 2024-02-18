@@ -15,7 +15,6 @@ if ($result->num_rows > 0) {
             <thead>
                 <tr>
                     <th>Test Drive ID</th>
-                    <th>Car ID</th>
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Email</th>
@@ -30,7 +29,6 @@ if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         echo "<tr>
                 <td>{$row['TestDriveID']}</td>
-                <td>{$row['CarID']}</td>
                 <td>{$row['FirstName']}</td>
                 <td>{$row['LastName']}</td>
                 <td>{$row['Email']}</td>
