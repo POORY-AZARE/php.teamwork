@@ -4,7 +4,7 @@
 
 $selectedCar = $_GET['carSelection'] ?? '';
 
-
+// Also I use a switch statement to compare the value of $selectedCar with different cases.
 switch ($selectedCar) {
     case 'Mercedes-Benz luopuu':
         header('Location: Mercedes-Benz-luopuu.php');
