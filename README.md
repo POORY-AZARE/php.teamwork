@@ -41,7 +41,7 @@ I will create a form for feedback where customer will give their review of the c
 This feature is about  customers who request for after-sale service and need to change or fix some pieces of their car. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) & link to the feature ([shell.hamk.fi---](http://shell.hamk.fi/~nastaran23000/php.teamwork/service.php)
 
 ### Feature 5
-This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php)) .
+This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/ReadData.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php)) .
 
 ### Feature 6 
 
