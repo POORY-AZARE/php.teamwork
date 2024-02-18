@@ -35,7 +35,7 @@
     <form action="searchResult.php" method="get">
         <select name="carSelection" id="carSelection">
             <option value="">Choose Your Perfect Vehicle</option>
-            <option value="Mercedes-Benz luopuu">Mercedes-Benz luopuu</option>
+            <option value="Mercedes-Benz luopuu">Mercedes-Benz luopuu</option >
             <option value="Mercedes-Benz unveils">Mercedes-Benz unveils</option>
             <option value="Mercedes Benz G63 AMG">Mercedes Benz G63 AMG</option>
             <option value="Mercedes-Benz C-Class">Mercedes-Benz C-Class</option>
