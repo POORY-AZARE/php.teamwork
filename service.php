@@ -39,7 +39,7 @@ function validateFirstName() {
     const first_name = document.getElementById("first_name").value;
     const firstNameError = document.getElementById("firstNameError");
     if (first_name.length < 3 || first_name.length > 20) {
-        firstNameError.innerHTML = "First Name must be between 3 & 20 characters";
+        firstNameError.innerHTML = "First Name must be more than 3 & less than 20 characters";
         return false;
     } else {
         firstNameError.innerHTML = "";
