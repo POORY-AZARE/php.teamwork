@@ -1,51 +1,45 @@
-<?php
-$title = "Service Request";
-include 'header.php'; ?>
+<?php include 'header.php'; ?>
 
-<h2>Submit Your Service Request:</h2>
+<h2>Service Request Form:</h2>
 <form name="serviceForm" method="post" action="submit_service.php"> 
-
     <div class="form-group">
         <label for="FirstName">First Name:</label>
-        <input type="text" class="form-control" id="FirstName" placeholder="Enter your first name" name="FirstName" required minlength="3" maxlength="20">
+        <input type="text" class="form-control" id="first_name" placeholder="Enter your first name" name="first_name" required minlength="3" maxlength="20">
         <span id="firstNameError"></span>
     </div>
 
     <div class="form-group">
         <label for="LastName">Last Name:</label>
-        <input type="text" class="form-control" id="LastName" placeholder="Enter your last name" name="LastName" required minlength="3" maxlength="20">
+        <input type="text" class="form-control" id="last_name" placeholder="Enter your last name" name="last_name" required minlength="3" maxlength="20">
         <span id="lastNameError"></span>
     </div>
-
     <div class="form-group">
         <label for="Email">Email:</label>
-        <input type="email" class="form-control" id="Email" placeholder="Enter your email" name="Email" required>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" required >
         <span id="emailError"></span>
     </div>
-
     <div class="form-group">
         <label for="PhoneNumber">Phone Number:</label>
-        <input type="text" class="form-control" id="PhoneNumber" placeholder="Enter your phone number" name="PhoneNumber" required minlength="8" maxlength="20">
+        <input type="text" class="form-control" id="contact_number" placeholder="Enter your phone number" name="contact_number" required minlength="8" maxlength="20">
         <span id="phoneError"></span>
     </div>
 
     <div class="form-group">
-    <label for="CarType">Car Type:</label>
-    <input type="text" class="form-control" id="CarType" placeholder="Enter your car type" name="CarType" required>
-    <span id="CarTypeError"></span>
-</div>
-
-    <button type="submit" class="btn btn-primary" name="submitServiceRequest">Submit Service Request</button>
+        <label for="CarType">Car Type:</label>
+        <input type="text" class="form-control" id="car_type" placeholder="Enter your car type" name="car_type" required>
+        <span id="CarTypeError"></span>
+    </div>
+    <button type="submit" class="btn btn-primary" name="ServiceRequest">Submit</button>
 </form>
 
 <script>
-// JavaScript validation functions
+// JavaScript :
 
 function validateFirstName() {
-    const firstName = document.getElementById("FirstName").value;
+    const first_name = document.getElementById("first_name").value;
     const firstNameError = document.getElementById("firstNameError");
-    if (firstName.length < 3 || firstName.length > 20) {
-        firstNameError.innerHTML = "First Name must be between 3 & 20 characters";
+    if (first_name.length < 3 || first_name.length > 20) {
+        firstNameError.innerHTML = "First Name must be more than 3 & less than 20 characters";
         return false;
     } else {
         firstNameError.innerHTML = "";
@@ -54,10 +48,10 @@ function validateFirstName() {
 }
 
 function validateLastName() {
-    const lastName = document.getElementById("LastName").value;
+    const last_name = document.getElementById("last_name").value;
     const lastNameError = document.getElementById("lastNameError");
-    if (lastName.length < 3 || lastName.length > 20) {
-        lastNameError.innerHTML = "Last Name must be between 3 & 20 characters";
+    if (last_name.length < 3 || last_name.length > 20) {
+        lastNameError.innerHTML = "Last Name must be more than 3 & less than 20 characters";
         return false;
     } else {
         lastNameError.innerHTML = "";
@@ -66,10 +60,10 @@ function validateLastName() {
 }
 
 function validateEmail() {
-    const email = document.getElementById("Email").value;
+    const email = document.getElementById("email").value;
     const emailError = document.getElementById("emailError");
     if (email === "" || !email.includes("@")) {
-        emailError.innerHTML = "Please enter a valid Email address";
+        emailError.innerHTML = "Please enter a correct type of  Email address";
         return false;
     } else {
         emailError.innerHTML = "";
@@ -78,10 +72,10 @@ function validateEmail() {
 }
 
 function validatePhoneNumber() {
-    const phoneNumber = document.getElementById("PhoneNumber").value;
+    const contact_number = document.getElementById("contact_number").value;
     const phoneError = document.getElementById("phoneError");
-    if (phoneNumber.length < 8 || phoneNumber.length > 20) {
-        phoneError.innerHTML = "Phone Number must be between 8 & 20 characters";
+    if (contact_number.length < 8 || contact_number.length > 20) {
+        phoneError.innerHTML = "Phone Number must be more than 8 & less than 20 characters";
         return false;
     } else {
         phoneError.innerHTML = "";
@@ -90,10 +84,10 @@ function validatePhoneNumber() {
 }
 
 function validateCarType() {
-    const carType = document.getElementById("CarType").value;
+    const car_type = document.getElementById("car_type").value;
     const carTypeError = document.getElementById("CarTypeError");
-    if (carType.length < 3 || carType.length > 20) {
-        carTypeError.innerHTML = "Car Type must be between 3 & 20 characters";
+    if (car_type.length < 3 || car_type.length > 20) {
+        carTypeError.innerHTML = "Car Type must be more than 3 & less than 20 characters";
         return false;
     } else {
         carTypeError.innerHTML = "";
@@ -101,12 +95,12 @@ function validateCarType() {
     }
 }
 
-// Event listeners for real-time validation
-document.getElementById("FirstName").addEventListener("input", validateFirstName);
-document.getElementById("LastName").addEventListener("input", validateLastName);
-document.getElementById("Email").addEventListener("input", validateEmail);
-document.getElementById("PhoneNumber").addEventListener("input", validatePhoneNumber);
-document.getElementById("CarType").addEventListener("input", validateCarType);
+// result of submiting:
+document.getElementById("first_name").addEventListener("input", validateFirstName);
+document.getElementById("last_name").addEventListener("input", validateLastName);
+document.getElementById("email").addEventListener("input", validateEmail);
+document.getElementById("contact_number").addEventListener("input", validatePhoneNumber);
+document.getElementById("car_type").addEventListener("input", validateCarType);
 </script>
 
 <?php include 'footer.php'; ?>

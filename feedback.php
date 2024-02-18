@@ -6,9 +6,11 @@ include 'header.php'; ?>
 <form name="feedbackForm" method="post" action="feedbackProcess.php"> 
 
     <div class="form-group">
-        <label for="FullName">Full Name:</label>
-        <input type="text" class="form-control" id="FullName" placeholder="Enter your full name" name="FullName" required minlength="3" maxlength="20">
-        <span id="FullNameError"></span>
+
+        <label form="FullName">Full Name</label>
+        <input type="text" class="form-control" id="Fullname" placeholder="Enter your Fullname" name="Fullname"  required minlength="3" maxlength="20">
+
+         <span id="FullNameError"></span>
     </div>
     <div class="form-group">
         <label for="Comment">Comment:</label>
@@ -48,7 +50,7 @@ function validateFullName() {
         return true;
     }
 }
-
+//validate comment
 function validateComment() {
     const comment = document.getElementById("Comment").value;
     const commentError = document.getElementById("CommentError");
@@ -60,7 +62,7 @@ function validateComment() {
         return true;
     }
 }
-
+//validating rating
 function validateRating() {
     const rating = document.getElementById("Rating").value;
     const ratingError = document.getElementById("RatingError");
@@ -73,7 +75,7 @@ function validateRating() {
     }
 }
 
-// Event listeners for real-time validation
+// Event listeners for real time validation
 document.getElementById("FullName").addEventListener("input", validateFullName);
 document.getElementById("Comment").addEventListener("input", validateComment);
 document.getElementById("Rating").addEventListener("change", validateRating);
