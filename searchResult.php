@@ -7,6 +7,7 @@ $selectedCar = $_GET['carSelection'] ?? '';
 // Also I use a switch statement to compare the value of $selectedCar with different cases.
 switch ($selectedCar) {
     case 'Mercedes-Benz luopuu':
+        //Using header function to redirect the user's browser to a different PHP file based on the selected car.
         header('Location: Mercedes-Benz-luopuu.php');
         break;
     case 'Mercedes-Benz unveils':
