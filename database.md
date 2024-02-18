@@ -64,14 +64,14 @@ CREATE TABLE SERVICE (
 );
 ```
 
-# table 1 poorya zare janakbari tabale name : newsletter_subscribers
+# table 5 poorya zare janakbari tabale name : newsletter_subscribers
 
 ```sql
 
 CREATE TABLE `newsletter_subscribers` (
-  `id` int NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `subscribed_on` datetime DEFAULT CURRENT_TIMESTAMP
+  id int NOT NULL,
+  email varchar(255) NOT NULL,
+  subscribed_on datetime DEFAULT CURRENT_TIMESTAMP
 );
 
 ```
