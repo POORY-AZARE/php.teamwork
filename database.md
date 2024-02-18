@@ -69,7 +69,7 @@ CREATE TABLE SERVICE (
 ```sql
 
 CREATE TABLE `newsletter_subscribers` (
-  id int NOT NULL,
+  id int AUTO_INCREMENT NOT NULL,
   email varchar(255) NOT NULL,
   subscribed_on datetime DEFAULT CURRENT_TIMESTAMP
 );
