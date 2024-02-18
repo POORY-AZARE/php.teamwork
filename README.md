@@ -21,6 +21,7 @@ In this section, list and describe the features or functionality that you are wo
 - [ ] Feature 3 (charity kabutbei): feedback
 - [ ] Feature 4 (Nastaran Dehnavi): Service
 - [ ] Feature 5 (POORYA ZARE JANAKBARI): Online Payment
+- [ ] Feature 6 (POORYA ZARE JANAKBARI): ReadData
 
 > Add features as required. 
 
@@ -41,6 +42,10 @@ This feature is about  customers who request for after-sale service and need to 
 
 ### Feature 5
 This feature enables customers to be directed to the online payment page by clicking the purchase button.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php)) .
+
+### Feature 6 
+
+This feature is designed to read and display data from the database on the website in the test drive table. Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php)) .
 
 
 ## Database Tables
