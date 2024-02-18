@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CAR SHOP</title>
-    <link rel="stylesheet" href="pz.css" />
+    <link rel="stylesheet" href="pzj.css" />
   </head>
   <body>
     <header>
