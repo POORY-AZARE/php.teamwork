@@ -4,31 +4,32 @@
 <form name="serviceForm" method="post" action="submit_service.php"> 
     <div class="form-group">
         <label for="FirstName">First Name:</label>
-        <input type="text" class="form-control" id="FirstName" placeholder="Enter your first name" name="first_name" required minlength="3" maxlength="20">
+        <input type="text" class="form-control" id="first_name" placeholder="Enter your first name" name="first_name" required minlength="3" maxlength="20">
         <span id="firstNameError"></span>
     </div>
 
     <div class="form-group">
         <label for="LastName">Last Name:</label>
-        <input type="text" class="form-control" id="LastName" placeholder="Enter your last name" name="last_name" required minlength="3" maxlength="20">
+        <input type="text" class="form-control" id="last_name" placeholder="Enter your last name" name="last_name" required minlength="3" maxlength="20">
         <span id="lastNameError"></span>
     </div>
     <div class="form-group">
         <label for="Email">Email:</label>
-        <input type="email" class="form-control" id="Email" placeholder="Enter your email" name="email" required >
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" required >
         <span id="emailError"></span>
     </div>
     <div class="form-group">
         <label for="PhoneNumber">Phone Number:</label>
-        <input type="text" class="form-control" id="PhoneNumber" placeholder="Enter your phone number" name="contact_number" required minlength="8" maxlength="20">
+        <input type="text" class="form-control" id="contact_number" placeholder="Enter your phone number" name="contact_number" required minlength="8" maxlength="20">
         <span id="phoneError"></span>
     </div>
 
     <div class="form-group">
         <label for="CarType">Car Type:</label>
-        <input type="text" class="form-control" id="CarType" placeholder="Enter your car type" name="car_type" required>
+        <input type="text" class="form-control" id="car_type" placeholder="Enter your car type" name="car_type" required>
+        <span id="CarTypeError"></span>
     </div>
-    <button type="ServiceRequest" class="btn btn-primary" name="ServiceRequest">Submit</button>
+    <button type="submit" class="btn btn-primary" name="ServiceRequest">Submit</button>
 </form>
 
 <script>
@@ -36,7 +37,7 @@
 
 function validateFirstName() {
     const first_name = document.getElementById("first_name").value;
-    const firstNameError = document.getElementById("firsNameError");
+    const firstNameError = document.getElementById("firstNameError");
     if (first_name.length < 3 || first_name.length > 20) {
         firstNameError.innerHTML = "First Name must be between 3 & 20 characters";
         return false;
@@ -101,7 +102,5 @@ document.getElementById("email").addEventListener("input", validateEmail);
 document.getElementById("contact_number").addEventListener("input", validatePhoneNumber);
 document.getElementById("car_type").addEventListener("input", validateCarType);
 </script>
-
-
 
 <?php include 'footer.php'; ?>
