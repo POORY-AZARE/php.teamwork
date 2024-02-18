@@ -75,7 +75,7 @@ function validatePhoneNumber() {
     const contact_number = document.getElementById("contact_number").value;
     const phoneError = document.getElementById("phoneError");
     if (contact_number.length < 8 || contact_number.length > 20) {
-        phoneError.innerHTML = "Phone Number must be between 8 & 20 characters";
+        phoneError.innerHTML = "Phone Number must be more than 8 & less than 20 characters";
         return false;
     } else {
         phoneError.innerHTML = "";
@@ -87,7 +87,7 @@ function validateCarType() {
     const car_type = document.getElementById("car_type").value;
     const carTypeError = document.getElementById("CarTypeError");
     if (car_type.length < 3 || car_type.length > 20) {
-        carTypeError.innerHTML = "Car Type must be between 3 & 20 characters";
+        carTypeError.innerHTML = "Car Type must be more than 3 & less than 20 characters";
         return false;
     } else {
         carTypeError.innerHTML = "";
