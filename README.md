@@ -83,7 +83,7 @@ List and describe any forms that have been created as part of your project. Incl
 - Form 5 (POORYA ZARE JANAKBARI): Test Drive : Link to the related code file : ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/testdrive.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/testdrive.php)). 
 - The test drive form allows customers to schedule a test drive for their preferred vehicles from the available cars in the database, capturing essential details like first name, last name, email, and the test drive date.
 
-- Form 6 (POORYA ZARE JANAKBARI):newsletter_subscribers : Through this form, by subscribing to the website's newsletter, people will be informed of the latest news, offers, payment terms, and discounts, and will receive emails on a weekly or monthly basis.  Provide links to related code files ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/index.php)) &  & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/subscribe.php)) .
+- Form 6 (POORYA ZARE JANAKBARI):newsletter_subscribers : Through this form, by subscribing to the website's newsletter, people will be informed of the latest news, offers, payment terms, and discounts, and will receive emails on a weekly or monthly basis.  Provide links to related code files:  ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/ReadData.php))  & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/subscribe.php)) .
 
 ---
 
