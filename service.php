@@ -51,7 +51,7 @@ function validateLastName() {
     const last_name = document.getElementById("last_name").value;
     const lastNameError = document.getElementById("lastNameError");
     if (last_name.length < 3 || last_name.length > 20) {
-        lastNameError.innerHTML = "Last Name must be between 3 & 20 characters";
+        lastNameError.innerHTML = "Last Name must be more than 3 & less than 20 characters";
         return false;
     } else {
         lastNameError.innerHTML = "";
@@ -63,7 +63,7 @@ function validateEmail() {
     const email = document.getElementById("email").value;
     const emailError = document.getElementById("emailError");
     if (email === "" || !email.includes("@")) {
-        emailError.innerHTML = "Please enter a valid Email address";
+        emailError.innerHTML = "Please enter a correct type of  Email address";
         return false;
     } else {
         emailError.innerHTML = "";
