@@ -95,7 +95,7 @@ function validateCarType() {
     }
 }
 
-// Event listeners for real-time validation
+// result of submiting:
 document.getElementById("first_name").addEventListener("input", validateFirstName);
 document.getElementById("last_name").addEventListener("input", validateLastName);
 document.getElementById("email").addEventListener("input", validateEmail);
