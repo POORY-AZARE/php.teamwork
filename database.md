@@ -63,3 +63,15 @@ CREATE TABLE SERVICE (
     email VARCHAR(255) NOT NULL
 );
 ```
+
+# table 1 poorya zare janakbari tabale name : newsletter_subscribers
+
+```sql
+
+CREATE TABLE `newsletter_subscribers` (
+  `id` int NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `subscribed_on` datetime DEFAULT CURRENT_TIMESTAMP
+);
+
+```

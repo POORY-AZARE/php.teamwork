@@ -1,6 +1,6 @@
 <?php
 // Check if the search form has been submitted
-if (isset($_GET['search'])) { // Assuming there's a search button with the name 'search'
+if (isset($_GET['search'])) { 
     // Retrieve data from the form and store it in variables
     $type = $_GET['type'];
     $make = $_GET['make'];
