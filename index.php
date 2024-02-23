@@ -107,7 +107,7 @@
           <img src="images/011.jpg" alt="Car Image 9" />
           <a href="Audi-A8-TFSI.php" class="car-description-link">
             <div class="car-description">Audi A8 TFSI</div>
-          </a>
+          </a>       
           <!-- Buy Now button form -->
         <form action="payment_processor.php" method="post">
             <input type="hidden" name="car_id" value="ID_OF_CAR_2" />
@@ -115,6 +115,44 @@
             <input type="submit" value="Buy Now" />
         </form>
         </div>
+        <!-- Car Item 10 -->
+        <div class="car-item">
+          <img src="images/012.jpg" alt="Car Image 10" />
+          <a href="Aston-Martin-DB12.php" class="car-description-link">
+            <div class="car-description">Aston-Martin-DB12</div>
+          </a>
+        <!-- Buy Now button form -->
+        <form action="payment_processor.php" method="post">
+            <input type="hidden" name="car_id" value="ID_OF_CAR_2" />
+            <input type="hidden" name="car_price" value="PRICE_OF_CAR_2" />
+            <input type="submit" value="Buy Now" />
+        </form>
+        </div>
+        <!-- Car Item 11 -->
+        <div class="car-item">
+          <img src="images/013.jpg" alt="Car Image 11" />
+          <a href="Aston-Martin-DBS-Coupe.php" class="car-description-link">
+            <div class="car-description">Aston-Martin-DBS-Coupe</div>
+        <!-- Buy Now button form -->
+        <form action="payment_processor.php" method="post">
+            <input type="hidden" name="car_id" value="ID_OF_CAR_2" />
+            <input type="hidden" name="car_price" value="PRICE_OF_CAR_2" />
+            <input type="submit" value="Buy Now" />
+        </form>
+        </div>
+        <!-- Car Item 12 -->
+          </a>
+          <div class="car-item">
+          <img src="images/014.jpg" alt="Car Image 12" />
+          <a href="Aston-Martin-Vantage-V12.php" class="car-description-link">
+            <div class="car-description">Aston-Martin-Vantage-V12</div>
+          </a>
+        <!-- Buy Now button form -->
+        <form action="payment_processor.php" method="post">
+            <input type="hidden" name="car_id" value="ID_OF_CAR_2" />
+            <input type="hidden" name="car_price" value="PRICE_OF_CAR_2" />
+            <input type="submit" value="Buy Now" />
+        </form>
       </div>
       <div class="vehicles-display">
       </div>

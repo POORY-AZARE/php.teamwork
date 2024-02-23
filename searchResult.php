@@ -34,6 +34,15 @@ switch ($selectedCar) {
     case 'Audi A8 TFSI':
         header('Location: Audi-A8-TFSI.php');
         break;
+    case 'Aston Marton DB12':
+        header('Location: Aston-Martin-DB12.php');
+        break;
+    case 'Aston Martin DBS Coupe':
+        header('Location: Aston-Martin-DBS-Coupe.php');
+        break;
+    case 'Aston Marton Vantage V12':
+        header('Location: Aston-Marton-Vantage-V12.php');
+        break;        
         //This block prints a message telling that the desired car was not found.
     default:
         echo '

@@ -44,6 +44,9 @@
             <option value="The new BMW i7 | British GQ">The new BMW i7 | British GQ</option>
             <option value="Audi RS7 Sportback">Audi RS7 Sportback</option>
             <option value="Audi A8 TFSI">Audi A8 TFSI</option>
+            <option value="Aston Martin DB12">Aston Martin DB12</option>
+            <option value="Aston Martin DBS Coupe">Aston Martin DBS Coupe</option>    
+            <option value="Aston Martin Vantage V12">Aston Martin Vantage V12</option>      
         </select>
         <button type="submit">Serch</button>
     </form>
