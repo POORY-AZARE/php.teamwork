@@ -14,7 +14,7 @@ switch ($selectedCar) {
         header('Location: Mercedes-Benz-unveils.php');
         break;
     case 'Mercedes Benz G63 AMG':
-        header('Location: Mercedes-Benz-G63.php');
+        header('Location: Mercedes-Benz-G63.php'); // The header function used to send a location to the browser
         break;
     case 'Mercedes-Benz C-Class':
         header('Location: Mercedes-Benz-C-Class.php');
@@ -38,7 +38,7 @@ switch ($selectedCar) {
         header('Location: Aston-Martin-DB12.php');
         break;
     case 'Aston Martin DBS Coupe':
-        header('Location: Aston-Martin-DBS-Coupe.php');
+        header('Location: Aston-Martin-DBS-Coupe.php'); // This is the value of the location which set to Aston-Martin-DBS-Coupe.php
         break;
     case 'Aston Martin Vantage V12':
         header('Location: Aston-Martin-Vantage-V12.php');
