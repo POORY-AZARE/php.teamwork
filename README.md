@@ -78,7 +78,7 @@ List and describe any forms that have been created as part of your project. Incl
 - Form 3: (charity kabutbei): Form Name:feedback Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/feedback.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~charity23000/php.teamwork/feedback.php)).  |the feedback form is form where the customer gives reviews about the car the bought 
 
 -  Form 4: (Nastaran Dehnavi): Form Name: Service([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/service.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~nastaran23000/php.teamwork/service.php)).  | Validations Applied
-- In this form customers who have a request for service the car,should fill the form like enter the name and email and also phone number, then press the submit key,after that Theie information will be store in our database.
+- In this form customers who have a request for service the car,should fill the form like enter the name and email and also phone number, then press the submit key,after that Their information will be store in our database.
   
 - Form 5 (POORYA ZARE JANAKBARI): Test Drive : Link to the related code file : ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/testdrive.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/testdrive.php)). 
 - The test drive form allows customers to schedule a test drive for their preferred vehicles from the available cars in the database, capturing essential details like first name, last name, email, and the test drive date.
@@ -95,7 +95,8 @@ List any tables that you have created in the project work
 - Table 1 (Amin Hamidi Younessi): Cars | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table (shell.hamk.fi).
 - Table 2 (POORYA ZARE JANAKBARI): testdrive | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/testdrive.php)).
 - Table 3 (Charity kabutbei): feedback | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/pz.php)) | Link to the table (shell.hamk.fi).
-- Table Orders (Nastaran Dehnavi):Service  | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table (shell.hamk.fi).
+- Table 4 (Nastaran Dehnavi):Service  | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/~nastaran23000/php.teamwork/service.php)).
+- 
 - Table 5 (POORYA ZARE JANAKBARI):newsletter_subscribers  | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/subscribe.php)).
 
 ---
