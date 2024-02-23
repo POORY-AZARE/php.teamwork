@@ -36,7 +36,7 @@ switch ($selectedCar) {
         break;
     case 'Aston Martin DB12':
         header('Location: Aston-Martin-DB12.php');
-        break;
+        break; // The break statement exit the switch cases
     case 'Aston Martin DBS Coupe':
         header('Location: Aston-Martin-DBS-Coupe.php'); // This is the value of the location which set to Aston-Martin-DBS-Coupe.php
         break;
