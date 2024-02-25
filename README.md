@@ -22,6 +22,7 @@ In this section, list and describe the features or functionality that you are wo
 - [ ] Feature 4 (Nastaran Dehnavi): Service
 - [ ] Feature 5 (POORYA ZARE JANAKBARI): Online Payment
 - [ ] Feature 6 (POORYA ZARE JANAKBARI): ReadData
+- [ ] Feature 7 (Amin Hamidi Younessi): searchResult
 
 > Add features as required. 
 
