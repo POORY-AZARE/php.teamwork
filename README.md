@@ -102,7 +102,6 @@ List any tables that you have created in the project work
 - Table 2 (POORYA ZARE JANAKBARI): testdrive | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/testdrive.php)).
 - Table 3 (Charity kabutbei): feedback | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/pz.php)) | Link to the table (shell.hamk.fi).
 - Table 4 (Nastaran Dehnavi):Service  | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/~nastaran23000/php.teamwork/service.php)).
-- 
 - Table 5 (POORYA ZARE JANAKBARI):newsletter_subscribers  | Link to the related code file ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/database.md)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/subscribe.php)).
 
 ---
