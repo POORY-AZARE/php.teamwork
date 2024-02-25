@@ -51,7 +51,7 @@ This feature is designed to read and display data from the database on the websi
 ### Feature 7
 
 This feature is designed to show the information about selected car in the new page and a new form. Provide links to related code files
-([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/searchResult.php) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/searchResult.php)) .
+([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/searchResult.php) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/Audi-A8-TFSI.php)) .
 
 ## Database Tables
 
