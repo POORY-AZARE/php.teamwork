@@ -48,6 +48,11 @@ This feature enables customers to be directed to the online payment page by clic
 This feature is designed to read and display data from the database on the website in the test drive table. Provide links to related code files 
 ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/ReadData.php) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/index.php)) .
 
+### Feature 7
+
+This feature is designed to show the information about selected car in the new page and a new form. Provide links to related code files
+([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/searchResult.php) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/searchResult.php)) .
+
 ## Database Tables
 
 List the database tables that are part of your project. 
