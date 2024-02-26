@@ -92,7 +92,7 @@ List and describe any forms that have been created as part of your project. Incl
 - Form 6 (POORYA ZARE JANAKBARI):newsletter_subscribers : Through this form, by subscribing to the website's newsletter, people will be informed of the latest news, offers, payment terms, and discounts, and will receive emails on a weekly or monthly basis.  Provide links to related code files:
 ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/ReadData.php))  & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~poorya23000/php.teamwork/subscribe.php)) .
 
-- Form 7 (Amin Hamidi Younessi): car infomation : With this form, customers can submit their orders by information like car model, price, year of production, type, and the company who create the car. From below you can find link to the code file: ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/carinformation.php)) & the link for the shell.hamk 
+- Form 7 (Amin Hamidi Younessi): car infomation : With this form, customers can submit their orders by information like car model, price, year of production, type, and the company who create the car. From below you can find link to the code file: ([github](https://github.com/POORY-AZARE/php.teamwork/blob/main/carinformation.php)) & the link for the shell.hamk is
 
 ---
 
