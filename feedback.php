@@ -1,5 +1,5 @@
 <?php
-$title="Feedback";
+$title = "Feedback";
 include 'header.php'; ?>
 
 <h2>Submit Your Feedback:</h2>
@@ -7,16 +7,18 @@ include 'header.php'; ?>
 
     <div class="form-group">
 
-        <label form="FullName">FullName</label>
-        <input type="text" class="form-control" id="FullName" placeholder="Enter your FullName" name="FullName"  required minlength="3" maxlength="20">
+        <label form="FullName">Full Name</label>
+        <input type="text" class="form-control" id="Fullname" placeholder="Enter your Fullname" name="Fullname"  required minlength="3" maxlength="20">
 
          <span id="FullNameError"></span>
     </div>
+
     <div class="form-group">
         <label for="Comment">Comment:</label>
         <textarea class="form-control" id="Comment" placeholder="Enter your feedback" name="Comment" required rows="4" minlength="3" maxlength="100"></textarea>
-        <span id="CommentError"></span>
+        <span id="commentError"></span>
     </div>
+
     <div class="form-group">
         <label for="Rating">Rating:</label>
         <select class="form-control" id="Rating" name="Rating" required>
@@ -27,12 +29,14 @@ include 'header.php'; ?>
             <option value="4">4 - Good</option>
             <option value="5">5 - Excellent</option>
         </select>
-        <span id="RatingError"></span>
+        <span id="ratingError"></span>
     </div>
+
     <div class="form-group">
         <label for="DateSubmitted">Date:</label>
         <input type="date" class="form-control" id="DateSubmitted" name="DateSubmitted" required>
     </div>
+
     <button type="submit" class="btn btn-primary" name="submitFeedback">Submit Feedback</button>
 </form>
 
@@ -40,8 +44,8 @@ include 'header.php'; ?>
 // JavaScript validation functions
 
 function validateFullName() {
-    const fullName = document.getElementById("FullName").value;
-    const fullNameError = document.getElementById("FullNameError");
+    const fullName = document.getElementById("Fullname").value;
+    const fullNameError = document.getElementById("fullNameError");
     if (fullName.length < 3 || fullName.length > 20) {
         fullNameError.innerHTML = "Full Name must be between 3 & 20 characters";
         return false;
@@ -50,10 +54,10 @@ function validateFullName() {
         return true;
     }
 }
-//validate comment
+
 function validateComment() {
     const comment = document.getElementById("Comment").value;
-    const commentError = document.getElementById("CommentError");
+    const commentError = document.getElementById("commentError");
     if (comment.length < 3 || comment.length > 100) {
         commentError.innerHTML = "Comment must be between 3 & 100 characters";
         return false;
@@ -62,10 +66,10 @@ function validateComment() {
         return true;
     }
 }
-//validating rating
+
 function validateRating() {
     const rating = document.getElementById("Rating").value;
-    const ratingError = document.getElementById("RatingError");
+    const ratingError = document.getElementById("ratingError");
     if (rating === "") {
         ratingError.innerHTML = "Please choose a rating";
         return false;
@@ -75,8 +79,8 @@ function validateRating() {
     }
 }
 
-// Event listeners for real time validation
-document.getElementById("FullName").addEventListener("input", validateFullName);
+// Event listeners for real-time validation
+document.getElementById("Fullname").addEventListener("input", validateFullName);
 document.getElementById("Comment").addEventListener("input", validateComment);
 document.getElementById("Rating").addEventListener("change", validateRating);
 
