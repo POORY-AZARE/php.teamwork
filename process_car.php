@@ -9,7 +9,7 @@ if (isset($_POST['submitCarInfo'])) {
     $Type = $_POST['Type'];
     
     // Include the database connection file
-    include 'db_connection.php';
+    include 'pz.php';
 
     // Define an SQL query to insert data into the 'Cars' table
     $sql = "INSERT INTO Cars (Make, Model, Year, Price, Type)
