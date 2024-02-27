@@ -7,7 +7,7 @@ include 'header.php'; ?>
 
     <div class="form-group">
 
-        <label form="FullName">Full Name</label>
+        <label for="FullName">Full Name</label>
         <input type="text" class="form-control" id="Fullname" placeholder="Enter your Fullname" name="Fullname"  required minlength="3" maxlength="20">
 
          <span id="FullNameError"></span>
