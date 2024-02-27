@@ -3,14 +3,12 @@ $title = "Feedback";
 include 'header.php'; ?>
 
 <h2>Submit Your Feedback:</h2>
-<form name="feedbackForm" method="post" action="feedbackProcess.php"> 
+<form name="feedbackForm" method="post" action="feedbackProcess.php">
 
     <div class="form-group">
-
-        <label for="FullName">Full Name</label>
-        <input type="text" class="form-control" id="Fullname" placeholder="Enter your Fullname" name="Fullname"  required minlength="3" maxlength="20">
-
-         <span id="FullNameError"></span>
+        <label for="FullName">Full Name:</label>
+        <input type="text" class="form-control" id="Fullname" placeholder="Enter your Full Name" name="Fullname" required minlength="3" maxlength="20">
+        <span id="fullNameError"></span> <!-- Corrected the ID to match with JavaScript -->
     </div>
 
     <div class="form-group">
@@ -42,10 +40,9 @@ include 'header.php'; ?>
 
 <script>
 // JavaScript validation functions
-
 function validateFullName() {
-    const fullName = document.getElementById("Fullname").value;
-    const fullNameError = document.getElementById("fullNameError");
+    const fullName = document.getElementById("Fullname").value; // Corrected the ID to match with HTML
+    const fullNameError = document.getElementById("fullNameError"); // Ensure this matches exactly with the span ID
     if (fullName.length < 3 || fullName.length > 20) {
         fullNameError.innerHTML = "Full Name must be between 3 & 20 characters";
         return false;
@@ -80,7 +77,7 @@ function validateRating() {
 }
 
 // Event listeners for real-time validation
-document.getElementById("Fullname").addEventListener("input", validateFullName);
+document.getElementById("Fullname").addEventListener("input", validateFullName); // Corrected the ID to match with HTML
 document.getElementById("Comment").addEventListener("input", validateComment);
 document.getElementById("Rating").addEventListener("change", validateRating);
 
