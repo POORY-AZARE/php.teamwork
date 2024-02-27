@@ -42,7 +42,7 @@ include 'header.php'; ?>
 // JavaScript validation functions
 function validateFullName() {
     const fullName = document.getElementById("Fullname").value; // Corrected the ID to match with HTML
-    const fullNameError = document.getElementById("fullNameError"); // Ensure this matches exactly with the span ID
+    const fullNameError = document.getElementById("fullNameError"); 
     if (fullName.length < 3 || fullName.length > 20) {
         fullNameError.innerHTML = "Full Name must be between 3 & 20 characters";
         return false;
@@ -77,7 +77,7 @@ function validateRating() {
 }
 
 // Event listeners for real-time validation
-document.getElementById("Fullname").addEventListener("input", validateFullName); // Corrected the ID to match with HTML
+document.getElementById("Fullname").addEventListener("input", validateFullName); 
 document.getElementById("Comment").addEventListener("input", validateComment);
 document.getElementById("Rating").addEventListener("change", validateRating);
 

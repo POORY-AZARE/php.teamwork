@@ -1,5 +1,4 @@
 <?php
-// Check if the 'submitFeedback' button in the form was clicked
 if (isset($_POST['submitFeedback'])) {
     // Retrieve data from the form and store it in variables
     $Fullname = $_POST['Fullname'];
