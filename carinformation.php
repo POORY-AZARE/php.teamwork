@@ -10,7 +10,7 @@
 
     <div class="form-group">
         <label for="Model">Model:</label>
-        <input type="text" class="form-control" id="Model" placeholder="Enter car model" name="Model" required minlength="1" maxlength="50">
+        <input type="text" class="form-control" id="Model" placeholder="Enter car model" name="Model" required minlength="2" maxlength="50">
         <span id="modelError"></span>
     </div>
 
@@ -40,7 +40,7 @@
 function validateMake() {
     const make = document.getElementById("Make").value;
     const makeError = document.getElementById("makeError");
-    if (make.length < 2  make.length > 50) {
+    if (make.length < 2 || make.length > 50) { // Fixed logical operator
         makeError.innerHTML = "Make must be between 2 and 50 characters";
         return false;
     } else {
@@ -53,8 +53,8 @@ function validateMake() {
 function validateModel() {
     const model = document.getElementById("Model").value;
     const modelError = document.getElementById("modelError");
-    if (model.length < 1  model.length > 50) {
-        modelError.innerHTML = "Model must be between 1 and 50 characters";
+    if (model.length < 2 || model.length > 50) { // Fixed logical operator
+        modelError.innerHTML = "Model must be between 2 and 50 characters";
         return false;
     } else {
         modelError.innerHTML = "";
@@ -66,7 +66,7 @@ function validateModel() {
 function validateYear() {
     const year = document.getElementById("Year").value;
     const yearError = document.getElementById("yearError");
-    if (year < 1900  year > new Date().getFullYear()) {
+    if (year < 1900 || year > new Date().getFullYear()) { // Fixed logical operator
         yearError.innerHTML = "Year must be between 1900 and " + new Date().getFullYear();
         return false;
     } else {
@@ -93,7 +93,7 @@ function validatePrice() {
 function validateType() {
     const type = document.getElementById("Type").value;
     const typeError = document.getElementById("typeError");
-    if (type.length < 1  type.length > 50) {
+    if (type.length < 1 || type.length > 50) { // Fixed logical operator
         typeError.innerHTML = "Type must be between 1 and 50 characters";
         return false;
     } else {
